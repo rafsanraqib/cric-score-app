@@ -7,6 +7,8 @@ class BowlerRank extends Component {
     this.state = { bowler_records: [] };
   }
 
+  // Gets all batsman data from the database
+  // Sort method sorts the recieved data in decending order
   componentDidMount = () => {
     axios
       .get("http://localhost:4000/models/bowl")
