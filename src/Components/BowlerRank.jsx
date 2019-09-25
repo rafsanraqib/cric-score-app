@@ -30,7 +30,7 @@ class BowlerRank extends Component {
           {this.state.bowler_records.map(function(records, i) {
             return (
               <li key={i}>
-                {records.name},Average:{records.average}
+                {records.name}, Average:{records.bowlAverage}
               </li>
             );
           })}

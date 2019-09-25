@@ -19,7 +19,7 @@ const bowlersWicketsSchema = new Schema({
 });
 
 const Runs_model = mongoose.model("runs_record", PlayerRunsSchema);
-const Bowl_model = mongoose.model("Bowler Record", bowlersWicketsSchema);
+const Bowl_model = mongoose.model("bowler_record", bowlersWicketsSchema);
 
 // Exports the models to be accessed by other files.
 module.exports = {
